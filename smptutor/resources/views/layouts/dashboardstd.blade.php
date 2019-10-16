@@ -172,7 +172,7 @@
                 </li>
                 <li>
                     <a href="{{ route('home')}}">
-                        <i class="fa fa-comment"></i> <span>Chat Student</span>
+                        <i class="fa fa-comment"></i> <span>Chat Tutor</span>
                     </a>
                 </li>
                 <li>
