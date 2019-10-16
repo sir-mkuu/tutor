@@ -19,6 +19,7 @@ Route::group(['middleware' => 'auth'], function () {
     // All my routes that needs a logged in user
     Route::get('/tutor', 'TutorController@tutor')->name('tutor');
     Route::get('/students', 'TutorController@students')->name('students');
+    Route::get('/student', 'StudentController@student')->name('student');
     Route::get('/modules', 'TutorController@modules')->name('modules');
 
     Route::get('/home', 'HomeController@index')->name('home');
